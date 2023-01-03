@@ -1,5 +1,5 @@
 # python-challenge
-UWA Bootcamp - Module 3
+Module 3
 
 The purpose of the exercise is to develop a two different python scripts to analyse “Comma Separated Value” files. The first challenge, PyBank, is a financial dataset and requires the: 
 -	Total number of months included in the dataset
