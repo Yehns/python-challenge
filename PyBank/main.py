@@ -20,6 +20,7 @@ with open(budget_csv) as csv_file:
 
 # Set total_months to a zero value 
 total_months = 0 
+# Determine the sum of rows
 for row in open(budget_csv):
     total_months += 1
 
@@ -36,7 +37,7 @@ with open(budget_csv, newline = '') as csvfile:
     data = csv.DictReader(csvfile)
     for row in data:
         average_change.append(float(row["Profit/Losses"]))
-# Calculate the mean/average of the entire period with sum/length(number of rows)
+# Calculate the mean/average of the entire period 
         mean = sum(average_change)/len(average_change)
 
 # Determine the "Greatest Increase" over the entire period
