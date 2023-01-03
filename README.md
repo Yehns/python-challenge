@@ -7,6 +7,7 @@ The purpose of the exercise is to develop a two different python scripts to anal
 -	The changes in “Profit/Losses” over the entire period, and then the average of those changes 
 -	The greatest increase in profits (date and amount) over the entire period
 -	The greatest decrease in profits (date and amount) over the entire period
+
 The second challenge, PyPoll, requires election data to be analysed calculating:
 -	The total number of votes cast
 -	A complete list of the candidates whom received votes
