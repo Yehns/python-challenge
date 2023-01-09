@@ -4,8 +4,8 @@ import os
 import csv
 
 # Set file upload and save path
-budget_csv = os.path.join("C:\\Users\weima\\OneDrive\Desktop\\UWA Bootcamp\\Python\\python-challenge\\PyBank\\Resources\\budget_data.csv")
-budget_analysis = os.path.join("C:\\Users\weima\\OneDrive\Desktop\\UWA Bootcamp\\Python\\python-challenge\\PyBank\\Analysis\\budget_analysis.txt")
+budget_csv = os.path.join("Resources\\budget_data.csv")
+budget_analysis = os.path.join("Analysis\\budget_analysis.txt")
 
 # Set profit list comprehension
 profit_loss = []

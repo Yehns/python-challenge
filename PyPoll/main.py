@@ -1,11 +1,11 @@
-#PyPoll Analysis
+# PyPoll Analysis
 # Import .csv file to python 
 import os
 import csv
 
 # Set file upload and save
-election_data = os.path.join("C:\\Users\weima\\OneDrive\Desktop\\UWA Bootcamp\\Python\\python-challenge\\PyPoll\\Resources\\election_data.csv")
-election_analysis = os.path.join("C:\\Users\weima\\OneDrive\Desktop\\UWA Bootcamp\\Python\\python-challenge\\PyPoll\\Analysis\\election_analysis.txt")
+election_data = os.path.join("Resources\\election_data.csv")
+election_analysis = os.path.join("Analysis\\election_analysis.txt")
 
 # Set "Total Votes" variable as zero
 total_votes = 0
